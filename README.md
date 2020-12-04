@@ -1,0 +1,1 @@
+# lorawan-specification-translation
