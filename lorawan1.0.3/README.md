@@ -8,3 +8,4 @@
 - [6. End Device Activation](./docs/6.ClassA-End-Device-Activation.md)
 - [7. Retransmissions back-off](./docs/7.ClassA-Retransmissions-back-off.md)
 - [8. Introduction to ClassB](./docs/8.ClassB-Introduction-to-ClassB.md)
+- [17. Class C: Continuously listening end-device](./docs/17.ClassC-Continuously-listening-end-device.md)
