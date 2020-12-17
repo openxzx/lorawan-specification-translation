@@ -6,3 +6,4 @@
 - [4. MAC Message Formats](./docs/4.ClassA-MAC-Message-Formats.md)
 - [5. MAC Commands](./docs/5.ClassA-MAC-Commands.md)
 - [6. End Device Activation](./docs/6.ClassA-End-Device-Activation.md)
+- [7. Retransmissions back-off](./docs/7.ClassA-Retransmissions-back-off.md)
