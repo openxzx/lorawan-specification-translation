@@ -10,4 +10,5 @@
 - [8. Introduction to ClassB](./docs/8.ClassB-Introduction-to-ClassB.md)
 - [9. Principle of synchronous network initiated downlink(ClassB option)](./docs/9.ClassB-Principle-of-synchronous-network-initiated-downlink.md)
 - [10. Uplink frame in ClassB mode](./docs/10.Uplink-frame-in-ClassB-mode.md)
+- [11. Downlink Ping frame format(Class B option)](./docs/11.Downlink-Ping-frame-format.md)
 - [17. Class C: Continuously listening end-device](./docs/17.ClassC-Continuously-listening-end-device.md)
