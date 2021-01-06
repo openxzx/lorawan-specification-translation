@@ -13,4 +13,5 @@
 - [11. Downlink Ping frame format(Class B option)](./docs/11.Downlink-Ping-frame-format.md)
 - [12. Beacon acquisition and tracking](./docs/12.Beacon-acquisition-and-tracking.md)
 - [13. ClassB Downlink slot timing](./docs/13.ClassB-Downlink-slot-timing.md)
+- [14. ClassB MAC commands](./docs/14.ClassB-MAC-commands.md)
 - [17. Class C: Continuously listening end-device](./docs/17.ClassC-Continuously-listening-end-device.md)
