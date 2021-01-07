@@ -17,3 +17,4 @@
 - [15. Beaconing(Class B option)](./docs/15.Beaconing.md)
 - [16. ClassB unicast multicast downlink channel frequencies](./docs/16.ClassB-unicast-multicast-downlink-channel-frequencies.md)
 - [17. ClassC: Continuously listening end-device](./docs/17.ClassC-Continuously-listening-end-device.md)
+- [Glossary](./docs/Glossary.md)
