@@ -15,4 +15,5 @@
 - [13. ClassB Downlink slot timing](./docs/13.ClassB-Downlink-slot-timing.md)
 - [14. ClassB MAC commands](./docs/14.ClassB-MAC-commands.md)
 - [15. Beaconing(Class B option)](./docs/15.Beaconing.md)
-- [17. Class C: Continuously listening end-device](./docs/17.ClassC-Continuously-listening-end-device.md)
+- [16. ClassB unicast multicast downlink channel frequencies](./docs/16.ClassB-unicast-multicast-downlink-channel-frequencies.md)
+- [17. ClassC: Continuously listening end-device](./docs/17.ClassC-Continuously-listening-end-device.md)
