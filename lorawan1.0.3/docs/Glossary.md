@@ -33,3 +33,4 @@
 | SSL | Secure Socket Layer(安全套接字层) |
 | Tx | Transmitter(发射机) |
 | USB | Universal Serial Bus(通用串行总线) |
+| Chirp | 线性调频 |
