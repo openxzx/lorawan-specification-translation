@@ -1,0 +1,114 @@
+# Revisions(修订)
+
+## 21.1 Revision 1.0
+
+    Approved version of LoRaWAN1.0
+    LoRaWAN1.0的批准版本
+
+## 21.2 Revision 1.0.1
+
+    Clarified the RX window start time definition
+    阐明了接收窗口开始时间的定义
+
+    Corrected the maximum payload size for DR2 in the NA section
+    修正了NA部分中DR2的最大有效负载大小
+
+    Corrected the typo on the downlink data rate range in 7.2.2
+    修正了7.2.2中下行数据速率范围的错误
+
+    Introduced a requirement for using coding rate 4/5 in 7.2.2 to guarantee
+    a maximum time on air < 400mSec
+    在7.2.2中引入了使用编码率4/5的要求，以保证在空气中的最大时间<400毫秒
+
+    Corrected the JoinAccept MIC calculation in 6.2.5
+    修正了6.2.5中JoinAccept MIC的计算
+
+    Clarified the NbRep field and renamed it to NbTrans in 5.2
+    澄清了NbRep字段，并在5.2中将其重命名为NbTrans
+
+    Removed the possibility to not encrypt the Applicative payload in the MAC layer ,
+    removed the paragraph 4.3.3.2. If further security is required by the application ,
+    the payload will be encrypted, using any method,
+    at the application layer then re-encrypted at the MAC layer
+    using the specified default LoRaWAN encryption
+    删除了在MAC层不加密应用有效负载的可能性，删除了第4.3.3.2段。
+    如果应用程序需要进一步的安全性，那么有效负载将在应用层使用任何方法进行加密，
+    然后在MAC层使用指定的默认LoRaWAN加密进行重新加密
+
+    Corrected FHDR field size typo
+    更正了FHDR字段大小错误
+
+    Corrected the channels impacted by ChMask when chMaskCntl equals 6 or 7
+    in 7.2.5
+    修正了7.2.5中chMaskCntl等于6或7时受ChMask影响的通道
+
+    Clarified 6.2.5 sentence describing the RX1 slot data rate offset in the JoinResp
+    message
+    阐明了6.2.5描述JoinResp消息中RX1时隙数据速率偏移的句子
+
+    Removed the second half of the DRoffset table in 7.2.7 , as DR>4 will never be used
+    for uplinks by definition
+    删除了7.2.7中DRoffset表的后半部分，因为DR>4从定义上讲永远不会用于上行链路
+
+    Removed explicit duty cycle limitation implementation in the EU868Mhz ISM band
+    (chapter7.1)
+    删除了EU868Mhz ISM频段的显式占空比限制实现（第7.1章）
+
+    Made the RXtimingSetupAns and RXParamSetupAns sticky MAC commands to
+    avoid end-device’s hidden state problem. (in 5.4 and 5.7)
+    使RXtimingSetupAns和RXParamSetupAns具有粘性MAC命令，
+    以避免终端设备的隐藏状态问题。（在5.4和5.7中）
+
+    Added a frequency plan for the Chinese 470-510MHz metering band
+    增加了中国470-510MHz测量频段的频率计划
+
+    Added a frequency plan for the Australian 915-928MHz ISM band
+    增加了澳大利亚915-928MHz ISM频段的频率计划
+
+## 21.3 Revision 1.0.2
+
+    Extracted section 7 “Physical layer” that will now be a separated document
+    “LoRaWAN regional physical layers definition”
+    摘录了第7节“物理层”，现在是一个单独的文件“LoRaWAN区域物理层定义”
+
+    corrected the ADR_backoff sequence description (ADR_ACK_LIMT was written
+    instead of ADR_ACK_DELAY) paragraph 4.3.1.1
+    修正了ADR退避序列描述（ADR_ACK_LIMT代替ADR_ACK_DELAY）第4.3.1.1段
+
+    Corrected a formatting issue in the title of section 18.2
+    (previously section 19.2 in the 1.0.1 version)
+    更正了第18.2节标题中的格式问题（以前是1.0.1版本中的第19.2节）
+
+    Added the DlChannelRec MAC command, this command is used to modify the
+    frequency at which an end-device expects a downlink
+    添加了DlChannelRec MAC命令，该命令用于修改终端设备期望下行链路的频率
+
+    Added the Tx ParamSetupRec MAC command. This command enables to remotely
+    modify the maximum TX dwell time and the maximum radio transmit power of a
+    device in certain regions
+    添加了Tx ParamSetupRec MAC命令。
+    此命令允许远程修改特定区域中设备的最大TX驻留时间和最大无线电发射功率
+
+    Added the ability for the end-device to process several ADRreq commands in a
+    single block in 5.2
+    在5.2中增加了终端设备在单个块中处理多个ADRreq命令的能力
+
+    Clarified AppKey definition
+    阐明AppKey定义
+
+## 21.4 Revision 1.0.3
+
+    Imported the classB chapter from the LoRaWAN1.1 specification
+    从LoRaWAN1.1规范中导入class B章节
+
+    Added the DeviceTimeReq/Ans MAC command in the classA chapter, those
+    commands are required for the classB beacon acquisition, the MAC commands
+    BeaconTimingReq/Ans are deprecated.
+    在class A章节中添加了DeviceTimeReq/Ans MAC命令，
+    这些命令是class B信标捕获所必需的，MAC命令BeaconTimingReq/Ans不推荐使用。
+
+    Corrected incorrect GPS epoch references
+    修正了不正确的GPS历元参考
+
+    Corrected various typos
+    更正了各种拼写错误
